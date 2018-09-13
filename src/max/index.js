@@ -8,6 +8,16 @@
 */
 const max = arr => {
   /* your logic here...*/
+ var max = 0;
+	for (var i=0; i<arr.length; i++) {
+	if(!(isFinite(arr[i]))) {
+	 continue;
+ }
+		if (arr[i]> max) {
+			max = arr[i];
+		}
+}
+	return max;
 };
 
 export default max;

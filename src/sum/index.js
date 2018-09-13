@@ -11,6 +11,21 @@
 */
 const sum = (a, b) => {
   /* your logic here...*/
+	if (typeof(a) !=== 'number')) {
+		throw new Error;
+	}
+	if (typeof(b) !=== 'number')) {
+		throw new Error;
+	}
+	if (!isFinite(a)) {
+		throw new Error;
+	}
+	if (!isFinite(b)) {
+		throw new Error;
+	}
+	else {
+		return a+b;
+		 }
 };
 
 export default sum;

@@ -9,6 +9,16 @@
  */
 const truncate = (str, length = 0, replacer = '...') => {
   /* your logic here...*/
+if (length > str.length) {
+	return str;
+}
+ var newstr = '';
+ var arr = str.split('');
+ for (var i=0; i<=arr[length-1]; i++) {
+	 newstr += arr[i];
+ }
+//	newstr += replacer;
+	return newstr;
 };
 
 export default truncate;

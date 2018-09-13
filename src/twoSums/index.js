@@ -10,6 +10,11 @@
  */
 const twoSums = (arr, base) => {
   /* your logic here...*/
+  var newarr = [];
+  for (var i=0; i<arr.[2]; i++) {
+	  newarr.push(arr[i]);
+  }
+	return newarr;
 };
 
 export default twoSums;
